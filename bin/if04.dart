@@ -8,5 +8,15 @@ Returns:
     int: return answer. 
 */
 
+int func(int a, int b) {
+  if (a > b) {
+    return a;
+  } else if (a == b) {
+    return 0;
+  }
+  return 0;
+}
+
 void main() {
+  print(func(8, 8));
 }
