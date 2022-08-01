@@ -7,7 +7,7 @@ Returns:
     int: return answer. */
 
 int func(int a) {
-  int a = 6547;
+  int a = 6347;
   int x1, x2, x3, x4;
   x1 = a % 10;
   a ~/= 10;
@@ -46,5 +46,5 @@ int func(int a) {
 }
 
 void main() {
-  print(func(6547));
+  print(func(6347));
 }
