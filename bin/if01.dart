@@ -25,5 +25,5 @@ int func(int b1, int b2, int b3) {
 }
 
 void main() {
-  print(func(9, 2, 8));
+  print(func(9, 3, 8));
 }
