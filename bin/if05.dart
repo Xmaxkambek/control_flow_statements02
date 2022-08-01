@@ -19,6 +19,7 @@ int func(int b) {
   b ~/= 10;
   x5 = b % 10;
   b ~/= 10;
+  int m = 0;
   if (x1 > x2) {
     if (x1 > x3) {
       if (x1 > x4) {
@@ -60,9 +61,9 @@ int func(int b) {
       }
     }
   }
-  return x4;
+  return x3;
 }
 
 void main() {
-  print(func(56421));
+  print(func(56744));
 }
