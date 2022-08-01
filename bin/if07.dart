@@ -16,14 +16,22 @@ Returns:
 */
 
 String func(int a) {
-  if (1 == 'monday') {
-  } else if (2 == 'thuesday') {
-  } else if (3 == 'wednesday') {
-  } else if (4 == 'thursday') {
-  } else if (5 == 'friday') {
-  } else if (6 == 'satuurday') {
-  } else if (7 == 'sunday') {}
-  return '';
+  if (a == 1) {
+    return 'monday';
+  } else if (a == 2) {
+    return 'thuesday';
+  } else if (a == 3) {
+    return 'wendnesday';
+  } else if (a == 4) {
+    return '4';
+  } else if (a == 5) {
+    return 'friday';
+  } else if (a == 6) {
+    return 'saturday';
+  } else if (a == 7) {
+    return 'sunday';
+  }
+  return '1';
 }
 
 void main() {
